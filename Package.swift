@@ -2,17 +2,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "Networking",
+    name: "NaluLogs",
     platforms: [
         .iOS(.v13)
     ],
     products: [
-        .library(name: "Networking", targets: ["Networking"])
+        .library(name: "NaluLogs", type: .dynamic, targets: ["NaluLogs"])
     ],
     targets: [
         .binaryTarget(
-            name: "Networking",
-            path: "Networking.xcframework"
+            name: "NaluLogs",
+            path: "NaluLogs.xcframework"
         )
     ]
 )
