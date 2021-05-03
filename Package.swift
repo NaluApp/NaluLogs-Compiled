@@ -7,7 +7,7 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library(name: "NaluLogs", type: .dynamic, targets: ["NaluLogs"])
+        .library(name: "NaluLogs", targets: ["NaluLogs"])
     ],
     targets: [
         .binaryTarget(
