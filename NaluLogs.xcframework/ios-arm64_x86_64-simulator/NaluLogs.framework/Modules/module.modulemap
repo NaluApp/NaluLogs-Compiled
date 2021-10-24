@@ -1,4 +1,0 @@
-framework module NaluLogs {
-  header "NaluLogs-Swift.h"
-  requires objc
-}
