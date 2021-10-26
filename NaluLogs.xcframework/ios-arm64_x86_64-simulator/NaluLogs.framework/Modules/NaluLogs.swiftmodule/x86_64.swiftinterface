@@ -1,0 +1,18 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -module-name NaluLogs
+import Foundation
+import Swift
+import _Concurrency
+@_hasMissingDesignatedInitializers final public class Logger {
+  @objc deinit
+}
+extension Logger {
+  public static func trace(_ text: Swift.String)
+  public static func debug(_ text: Swift.String)
+  public static func info(_ text: Swift.String)
+  public static func notice(_ text: Swift.String)
+  public static func warning(_ text: Swift.String)
+  public static func error(_ text: Swift.String)
+  public static func critical(_ text: Swift.String)
+}
